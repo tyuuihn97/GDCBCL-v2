@@ -1,0 +1,23 @@
+html, body {
+    font-family: var(--font-base);
+    background: var(--hsl-bg);
+    color: var(--hsl-light90);
+    min-height: 100vh;
+}
+
+.app {
+    min-height: calc(100vh - 48px - 264px);
+}
+
+#root {
+    min-height: 100vh;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
